@@ -1,0 +1,94 @@
+.frame {
+    width: 418px;
+    height: 418px;
+    font-size: 0;
+
+    &__top-left {
+        display: inline-block;
+        width: 100px;
+        height: 15px;
+        border-top: 1px solid $color-yellow;
+        border-left: 1px solid $color-yellow;
+    }
+
+    &__top-middle {
+        display: inline-block;
+        width: 218px;
+        height: 15px;
+        border-top: 1px solid transparent;
+    }
+
+    &__top-right {
+        display: inline-block;
+        width: 100px;
+        height: 15px;
+        border-top: 1px solid $color-yellow;
+        border-right: 1px solid $color-yellow;
+    }
+
+    &__middle-left {
+        display: inline-block;
+    }
+
+    &__avatar-img {
+        display: inline-block;
+        width: 388px;
+        height: 388px;
+        border: 1px solid $color-yellow;
+        overflow: hidden;
+    }
+
+    &__middle-right {
+        display: inline-block;
+    }
+
+    &__bottom-left {
+        display: inline-block;
+        width: 100px;
+        height: 15px;
+        border-bottom: 1px solid $color-yellow;
+        border-left: 1px solid $color-yellow;
+    }
+
+    &__bottom-middle {
+        display: inline-block;
+        width: 218px;
+        height: 15px;
+        border-bottom: 1px solid transparent;
+    }
+
+    &__bottom-right {
+        display: inline-block;
+        width: 100px;
+        height: 15px;
+        border-bottom: 1px solid $color-yellow;
+        border-right: 1px solid $color-yellow;
+    }
+}
+
+.middle-left-1,
+.middle-left-3 {
+    width: 15px;
+    height: 86px;
+    border-left: 1px solid $color-yellow;
+}
+
+.middle-left-2 {
+    width: 15px;
+    height: 216px;
+    border-left: 1px solid transparent;
+}
+
+
+.middle-right-1,
+.middle-right-3 {
+    width: 15px;
+    height: 86px;
+    border-right: 1px solid $color-yellow;
+}
+
+.middle-right-2 {
+    width: 15px;
+    height: 216px;
+    border-right: 1px solid transparent;
+}
